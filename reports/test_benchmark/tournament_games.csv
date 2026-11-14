@@ -1,0 +1,2 @@
+game_id,tier_name,opponent_elo,opening_eco,opening_name,machiavelli_color,result,machiavelli_result,objective_completed,modified_objective_completed,blunders,total_moves,total_plies,moves_to_completion,avg_move_time_ms,avg_eval_cp,sacrifices_count,promotions_count,termination_reason
+m_1650_B90_w_1,tier_1650,1650,B90,Sicilian Defence (Najdorf Variation),white,1/2-1/2,draw,False,False,0,11,20,,13.04325860037352,0.0,3,0,max_moves_reached

@@ -1,0 +1,5 @@
+game_id,tier_name,opponent_elo,opening_eco,opening_name,machiavelli_color,result,machiavelli_result,objective_completed,modified_objective_completed,blunders,total_moves,total_plies,moves_to_completion,avg_move_time_ms,avg_eval_cp,sacrifices_count,promotions_count,termination_reason
+m_1650_B90_w_1,tier_1650,1650,B90,Sicilian Defence (Najdorf Variation),white,0-1,loss,False,False,6,21,40,,6.489814000572854,-1484.6666666666667,4,0,checkmate
+m_1650_B90_b_2,tier_1650,1650,B90,Sicilian Defence (Najdorf Variation),black,1-0,loss,False,False,0,16,31,,8.874908499637968,125.5,5,0,checkmate
+m_1650_C18_w_3,tier_1650,1650,C18,French Defence (Winawer Variation),white,0-1,loss,False,False,12,28,54,,5.0417797144854415,-1071.3333333333333,4,0,checkmate
+m_1650_C18_b_4,tier_1650,1650,C18,French Defence (Winawer Variation),black,1-0,loss,False,False,0,21,41,,6.302860071238164,0.0,3,0,checkmate

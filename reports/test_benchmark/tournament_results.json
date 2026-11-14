@@ -1,0 +1,77 @@
+{
+  "summary": {
+    "total_games": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 0,
+    "win_rate": 0.0,
+    "draw_rate": 1.0,
+    "loss_rate": 0.0,
+    "objective_completed_count": 0,
+    "objective_completion_rate": 0.0,
+    "modified_objective_count": 0,
+    "modified_objective_rate": 0.0,
+    "total_blunders": 0,
+    "avg_blunders_per_game": 0.0,
+    "avg_moves": 11.0,
+    "avg_moves_to_completion": null,
+    "avg_move_time_ms": 13.0,
+    "tier_breakdown": {
+      "tier_1650": {
+        "tier_name": "tier_1650",
+        "opponent_elo": 1650,
+        "total_games": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "win_rate": 0.0,
+        "draw_rate": 1.0,
+        "loss_rate": 0.0,
+        "objective_completed_count": 0,
+        "objective_completion_rate": 0.0,
+        "modified_objective_count": 0,
+        "modified_objective_rate": 0.0,
+        "total_blunders": 0,
+        "avg_blunders_per_game": 0.0,
+        "avg_moves": 11.0,
+        "avg_moves_to_completion": null,
+        "avg_move_time_ms": 13.0
+      }
+    },
+    "hardware_info": {
+      "platform": "macOS-27.3-arm64-arm-64bit-Mach-O",
+      "processor": "arm",
+      "python_version": "3.15.2",
+      "cpu_count": "8"
+    },
+    "timestamp": "2026-11-14T19:43:01.436470+00:00"
+  },
+  "games": [
+    {
+      "game_id": "m_1650_B90_w_1",
+      "tier_name": "tier_1650",
+      "opponent_elo": 1650,
+      "opening_eco": "B90",
+      "opening_name": "Sicilian Defence (Najdorf Variation)",
+      "machiavelli_color": "white",
+      "result": "1/2-1/2",
+      "machiavelli_result": "draw",
+      "objective_completed": false,
+      "modified_objective_completed": false,
+      "blunders": 0,
+      "total_moves": 11,
+      "total_plies": 20,
+      "moves_to_completion": null,
+      "avg_move_time_ms": 13.04325860037352,
+      "avg_eval_cp": 0.0,
+      "sacrifices_count": 3,
+      "promotions_count": 0,
+      "termination_reason": "max_moves_reached",
+      "pgn_text": "[Event \"Machiavelli Benchmark - 1650 Elo\"]\n[Site \"Machiavelli Automated Arena\"]\n[Date \"2026.11.14\"]\n[Round \"m_1650_B90_w_1\"]\n[White \"Machiavelli\"]\n[Black \"Stockfish (1650)\"]\n[Result \"1/2-1/2\"]\n[WhiteElo \"2600\"]\n[BlackElo \"1650\"]\n[ECO \"B90\"]\n[Opening \"Sicilian Defence (Najdorf Variation)\"]\n[Termination \"max_moves_reached\"]\n[MachiavelliObjective \"Machiavelli Grand Challenge: Sacrificial Knight Ascension\"]\n[ObjectiveCompleted \"No\"]\n[FeasibilityStatus \"PROVEN_IMPOSSIBLE\"]\n[Blunders \"0\"]\n\n1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Ne6\n{ [%eval +0.00] [%clk 25ms] } 6... Bxe6 { [%eval +7.55] } 7. Nb5\n{ [%eval +0.00] [%clk 15ms] } 7... axb5 { [%eval +10.50] } 8. Bc4\n{ [%eval +0.00] [%clk 8ms] } 8... Nc6 { [%eval +10.94] } 9. Bxe6\n{ [%eval +0.00] [%clk 8ms] } 9... fxe6 { [%eval +10.60] } 10. Qxd6\n{ [%eval +0.00] [%clk 9ms] } 10... exd6 { [%eval +12.99] } 1/2-1/2\n\n",
+      "metadata": {
+        "feasibility": "PROVEN_IMPOSSIBLE",
+        "milestones_count": 3
+      }
+    }
+  ]
+}

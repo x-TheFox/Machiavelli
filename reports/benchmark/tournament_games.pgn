@@ -1,0 +1,137 @@
+[Event "Machiavelli Benchmark - 1650 Elo"]
+[Site "Machiavelli Automated Arena"]
+[Date "2026.11.14"]
+[Round "m_1650_B90_w_1"]
+[White "Machiavelli"]
+[Black "Stockfish (1650)"]
+[Result "0-1"]
+[WhiteElo "2600"]
+[BlackElo "1650"]
+[ECO "B90"]
+[Opening "Sicilian Defence (Najdorf Variation)"]
+[Termination "checkmate"]
+[MachiavelliObjective "Machiavelli Grand Challenge: Sacrificial Knight Ascension"]
+[ObjectiveCompleted "No"]
+[FeasibilityStatus "PROVEN_IMPOSSIBLE"]
+[Blunders "6"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Ne6
+{ [%eval +0.00] [%clk 21ms] } 6... Bxe6 { [%eval +7.55] } 7. Nb5
+{ [%eval +0.00] [%clk 12ms] } 7... axb5 { [%eval +10.50] } 8. Bc4
+{ [%eval +0.00] [%clk 7ms] } 8... Qb6 { [%eval +10.94] } 9. Bxe6
+{ [%eval +0.00] [%clk 7ms] } 9... fxe6 { [%eval +10.58] } 10. Qxd6
+{ [%eval +0.00] [%clk 8ms] } 10... Qa5+ { [%eval +13.57] } 11. Qb4
+{ [%eval +0.00] [%clk 3ms] } 11... Qxb4+ { [%eval +12.97] } 12. Bd2
+{ [%eval -11.92] [%clk 3ms] } 12... Qxe4+ { [%eval +13.93] } 13. Be3
+{ [%eval -11.08] [%clk 2ms] } 13... g6 { [%eval +13.02] } 14. Rf1
+{ [%eval +0.00] [%clk 7ms] } 14... Bg7 { [%eval +12.90] } 15. Rh1
+{ [%eval +0.00] [%clk 6ms] } 15... Qc6 { [%eval +13.14] } 16. Ba7
+{ [%eval +0.00] [%clk 9ms] } 16... Rxa7 { [%eval +16.33] } 17. Rf1
+{ [%eval +0.00] [%clk 5ms] } 17... Ra4 { [%eval +17.36] } 18. Ke2
+{ [%eval +0.00] [%clk 5ms] } 18... Qxc2+ { [%eval +99.70] } 19. Ke3
+{ [%eval -99.80] [%clk 2ms] } 19... Ng4+ { [%eval +99.80] } 20. Kf3
+{ [%eval -99.90] [%clk 0ms] } 20... Qd3# { [%eval +99.90] } 0-1
+
+[Event "Machiavelli Benchmark - 1650 Elo"]
+[Site "Machiavelli Automated Arena"]
+[Date "2026.11.14"]
+[Round "m_1650_B90_b_2"]
+[White "Stockfish (1650)"]
+[Black "Machiavelli"]
+[Result "1-0"]
+[WhiteElo "1650"]
+[BlackElo "2600"]
+[ECO "B90"]
+[Opening "Sicilian Defence (Najdorf Variation)"]
+[Termination "checkmate"]
+[MachiavelliObjective "Machiavelli Grand Challenge: Sacrificial Knight Ascension"]
+[ObjectiveCompleted "No"]
+[FeasibilityStatus "PROVEN_IMPOSSIBLE"]
+[Blunders "0"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 { [%eval +0.29] }
+6... Nc6 { [%eval -0.66] [%clk 19ms] } 7. Be2 { [%eval +0.62] } 7... Be6
+{ [%eval +0.00] [%clk 15ms] } 8. Qd2 { [%eval +1.21] } 8... Nxd4
+{ [%eval -0.81] [%clk 13ms] } 9. Bxf6 { [%eval +0.95] } 9... Nxe2
+{ [%eval +6.50] [%clk 6ms] } 10. f4 { [%eval -6.26] } 10... Nxc3
+{ [%eval +7.52] [%clk 7ms] } 11. Bxc3 { [%eval -7.36] } 11... Qa5
+{ [%eval +0.00] [%clk 5ms] } 12. Bxa5 { [%eval +7.28] } 12... Rd8
+{ [%eval +0.00] [%clk 6ms] } 13. b3 { [%eval +9.51] } 13... Bf5
+{ [%eval +0.00] [%clk 6ms] } 14. Qe2 { [%eval +9.72] } 14... Bg4
+{ [%eval +0.00] [%clk 5ms] } 15. Qxg4 { [%eval +10.04] } 15... Rc8
+{ [%eval +0.00] [%clk 6ms] } 16. Qxc8# { [%eval +99.90] } 1-0
+
+[Event "Machiavelli Benchmark - 1650 Elo"]
+[Site "Machiavelli Automated Arena"]
+[Date "2026.11.14"]
+[Round "m_1650_C18_w_3"]
+[White "Machiavelli"]
+[Black "Stockfish (1650)"]
+[Result "0-1"]
+[WhiteElo "2600"]
+[BlackElo "1650"]
+[ECO "C18"]
+[Opening "French Defence (Winawer Variation)"]
+[Termination "checkmate"]
+[MachiavelliObjective "Machiavelli Grand Challenge: Sacrificial Knight Ascension"]
+[ObjectiveCompleted "No"]
+[FeasibilityStatus "PROVEN_IMPOSSIBLE"]
+[Blunders "12"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. Ba6
+{ [%eval +0.00] [%clk 18ms] } 7... bxa6 { [%eval +7.08] } 8. Bh6
+{ [%eval +0.00] [%clk 7ms] } 8... gxh6 { [%eval +11.23] } 9. Nh3
+{ [%eval +0.00] [%clk 5ms] } 9... a5 { [%eval +10.76] } 10. Ng5
+{ [%eval +0.00] [%clk 6ms] } 10... hxg5 { [%eval +10.73] } 11. Rg1
+{ [%eval +0.00] [%clk 7ms] } 11... c4 { [%eval +11.66] } 12. Qd3
+{ [%eval +0.00] [%clk 5ms] } 12... Nec6 { [%eval +13.09] } 13. Qg6
+{ [%eval +0.00] [%clk 7ms] } 13... Rf8 { [%eval +12.85] } 14. Qxe6+
+{ [%eval +0.00] [%clk 6ms] } 14... Ne7 { [%eval +12.99] } 15. Qxc8
+{ [%eval +0.00] [%clk 7ms] } 15... Rg8 { [%eval +13.03] } 16. Qxb8
+{ [%eval +0.00] [%clk 6ms] } 16... Rxb8 { [%eval +11.74] } 17. Rb1
+{ [%eval +0.00] [%clk 5ms] } 17... Rxb1+ { [%eval +11.08] } 18. Kd2
+{ [%eval -11.89] [%clk 2ms] } 18... Rxg1 { [%eval +12.98] } 19. Ke3
+{ [%eval +0.00] [%clk 5ms] } 19... Rxg2 { [%eval +13.60] } 20. a4
+{ [%eval +0.00] [%clk 3ms] } 20... Nf5+ { [%eval +14.78] } 21. Ke2
+{ [%eval -13.39] [%clk 2ms] } 21... g4 { [%eval +14.91] } 22. h3
+{ [%eval +0.00] [%clk 3ms] } 22... Rh2 { [%eval +15.62] } 23. Kd1
+{ [%eval +0.00] [%clk 3ms] } 23... g3 { [%eval +15.83] } 24. Kd2
+{ [%eval +0.00] [%clk 4ms] } 24... Nxd4 { [%eval +99.60] } 25. Kd1
+{ [%eval +0.00] [%clk 4ms] } 25... Rh1+ { [%eval +99.70] } 26. Kd2
+{ [%eval -99.80] [%clk 0ms] } 26... Qg5+ { [%eval +99.80] } 27. f4
+{ [%eval -99.90] [%clk 0ms] } 27... Qxf4# { [%eval +99.90] } 0-1
+
+[Event "Machiavelli Benchmark - 1650 Elo"]
+[Site "Machiavelli Automated Arena"]
+[Date "2026.11.14"]
+[Round "m_1650_C18_b_4"]
+[White "Stockfish (1650)"]
+[Black "Machiavelli"]
+[Result "1-0"]
+[WhiteElo "1650"]
+[BlackElo "2600"]
+[ECO "C18"]
+[Opening "French Defence (Winawer Variation)"]
+[Termination "checkmate"]
+[MachiavelliObjective "Machiavelli Grand Challenge: Sacrificial Knight Ascension"]
+[ObjectiveCompleted "No"]
+[FeasibilityStatus "PROVEN_IMPOSSIBLE"]
+[Blunders "0"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Ne7 7. h4
+{ [%eval +0.46] } 7... Qd6 { [%eval +0.00] [%clk 26ms] } 8. exd6
+{ [%eval +9.98] } 8... Na6 { [%eval +0.00] [%clk 6ms] } 9. dxe7
+{ [%eval +11.08] } 9... Rf8 { [%eval +0.00] [%clk 6ms] } 10. exf8=N
+{ [%eval +12.06] } 10... Bd7 { [%eval +0.00] [%clk 5ms] } 11. Nxd7
+{ [%eval +15.30] } 11... Rb8 { [%eval +0.00] [%clk 7ms] } 12. Nxc5
+{ [%eval +16.92] } 12... Nb4 { [%eval +0.00] [%clk 5ms] } 13. axb4
+{ [%eval +18.45] } 13... Kf8 { [%eval +0.00] [%clk 5ms] } 14. Bf4
+{ [%eval +20.25] } 14... Kg8 { [%eval +0.00] [%clk 6ms] } 15. Bd3
+{ [%eval +21.92] } 15... Kh8 { [%eval +0.00] [%clk 4ms] } 16. Kf1
+{ [%eval +21.43] } 16... Kg8 { [%eval +0.00] [%clk 6ms] } 17. Bxb8
+{ [%eval +22.48] } 17... Kh8 { [%eval +0.00] [%clk 5ms] } 18. Bf4
+{ [%eval +22.65] } 18... f6 { [%eval +0.00] [%clk 5ms] } 19. Qh5
+{ [%eval +30.29] } 19... b6 { [%eval +0.00] [%clk 2ms] } 20. Rxa7
+{ [%eval +99.90] } 20... bxc5 { [%eval +0.00] [%clk 1ms] } 21. Qxh7#
+{ [%eval +99.90] } 1-0
+
