@@ -42,6 +42,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--games-per-opening",
+        "--games",
+        dest="games_per_opening",
         type=int,
         default=2,
         help="Number of games per opening (default 2: 1 as White, 1 as Black)",
@@ -51,6 +53,12 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=2000,
         help="Search budget per move in milliseconds (default: 2000ms)",
+    )
+    parser.add_argument(
+        "--depth",
+        type=int,
+        default=None,
+        help="Search depth limit for adversarial planner and Stockfish",
     )
     parser.add_argument(
         "--max-moves",
@@ -70,6 +78,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--output-dir",
+        "--output",
+        dest="output_dir",
         type=str,
         default="reports/benchmark",
         help="Directory to save benchmark reports and PGNs (default: reports/benchmark)",

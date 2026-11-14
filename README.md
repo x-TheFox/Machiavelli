@@ -131,7 +131,7 @@ Open [http://localhost:3000](http://localhost:3000) to access the interactive we
 ## 🧪 Testing & Benchmarks
 
 ### Running the Test Suite
-Machiavelli includes 77 unit and integration tests covering UCI communication, piece tracking, feasibility proofs, search heuristics, and server concurrency:
+Machiavelli includes 78 unit and integration tests covering UCI communication, piece tracking, feasibility proofs, search heuristics, server concurrency, and LLM model-chaining failover:
 ```bash
 pytest backend/tests -v
 ```
@@ -139,8 +139,9 @@ pytest backend/tests -v
 ### Running Tournament Benchmarks
 Execute calibrated matches against 1650, 1950, and 2250 Elo Stockfish configurations across 15 standard ECO openings:
 ```bash
-python backend/run_tournament.py --games 30 --depth 6 --output reports/benchmark
+python backend/run_tournament.py --games 2 --depth 6 --output reports/benchmark
 ```
+*(Supports `--games-per-opening` / `--games`, `--output-dir` / `--output`, `--tiers`, `--movetime`, and `--quick` smoke-test mode)*
 
 ---
 
@@ -155,7 +156,7 @@ python backend/run_tournament.py --games 30 --depth 6 --output reports/benchmark
 │   │   ├── chess_engine/    # UCI client, piece tracker, planner, evaluator, search
 │   │   ├── core/            # Settings, SQLAlchemy database models, persistence
 │   │   └── main.py          # Application entrypoint
-│   ├── tests/               # 77 unit & integration tests
+│   ├── tests/               # 78 unit & integration tests
 │   ├── run_server.py        # Server runner CLI
 │   └── run_tournament.py    # Benchmark runner CLI
 ├── frontend/
