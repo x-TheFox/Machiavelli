@@ -1,0 +1,24 @@
+[Event "Machiavelli Benchmark - 1650 Elo"]
+[Site "Machiavelli Automated Arena"]
+[Date "2026.11.14"]
+[Round "m_1650_B90_w_1"]
+[White "Machiavelli"]
+[Black "Stockfish (1650)"]
+[Result "1/2-1/2"]
+[WhiteElo "2600"]
+[BlackElo "1650"]
+[ECO "B90"]
+[Opening "Sicilian Defence (Najdorf Variation)"]
+[Termination "max_moves_reached"]
+[MachiavelliObjective "Machiavelli Grand Challenge: Sacrificial Knight Ascension"]
+[ObjectiveCompleted "No"]
+[FeasibilityStatus "FEASIBLE"]
+[Blunders "0"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Ne6
+{ [%eval +0.00] [%clk 22ms] } 6... Bxe6 { [%eval +7.55] } 7. Nb5
+{ [%eval +0.00] [%clk 12ms] } 7... axb5 { [%eval +10.50] } 8. Bc4
+{ [%eval +0.00] [%clk 7ms] } 8... Bd7 { [%eval +10.94] } 9. Be6
+{ [%eval +0.00] [%clk 10ms] } 9... Ra4 { [%eval +10.94] } 10. Bd5
+{ [%eval +0.00] [%clk 10ms] } 10... Rxe4+ { [%eval +11.36] } 1/2-1/2
+

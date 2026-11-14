@@ -1,0 +1,91 @@
+game_id,tier_name,opponent_elo,opening_eco,opening_name,machiavelli_color,result,machiavelli_result,objective_completed,modified_objective_completed,blunders,total_moves,total_plies,moves_to_completion,avg_move_time_ms,avg_eval_cp,sacrifices_count,promotions_count,termination_reason
+m_1650_B90_w_1,tier_1650,1650,B90,Sicilian Defence (Najdorf Variation),white,0-1,loss,False,False,1,17,32,,8.118700635598294,-218.72727272727272,5,0,checkmate
+m_1650_B90_b_2,tier_1650,1650,B90,Sicilian Defence (Najdorf Variation),black,1-0,loss,False,False,1,25,49,,8.625903368642627,447.7894736842105,2,0,checkmate
+m_1650_C18_w_3,tier_1650,1650,C18,French Defence (Winawer Variation),white,0-1,loss,False,False,9,21,40,,6.7142471429438695,-866.0,4,0,checkmate
+m_1650_C18_b_4,tier_1650,1650,C18,French Defence (Winawer Variation),black,1-0,loss,False,False,0,17,33,,5.486870599997928,-367.3,3,0,checkmate
+m_1650_C84_w_5,tier_1650,1650,C84,Ruy Lopez (Closed / Morphy Defence),white,0-1,loss,False,False,10,26,50,,5.692918888800907,-235.22222222222223,5,0,checkmate
+m_1650_C84_b_6,tier_1650,1650,C84,Ruy Lopez (Closed / Morphy Defence),black,1-0,loss,False,False,0,24,47,,8.89735412488335,-2109.75,2,0,checkmate
+m_1650_B18_w_7,tier_1650,1650,B18,Caro-Kann Defence (Classical Variation),white,0-1,loss,False,False,9,28,54,,6.594089091198509,-1895.5,5,0,checkmate
+m_1650_B18_b_8,tier_1650,1650,B18,Caro-Kann Defence (Classical Variation),black,1-0,loss,False,False,0,19,37,,6.4751024619909,-13.76923076923077,3,0,checkmate
+m_1650_C50_w_9,tier_1650,1650,C50,Italian Game (Giuoco Piano),white,0-1,loss,False,False,1,20,38,,6.495625071693212,-145.0,7,0,checkmate
+m_1650_C50_b_10,tier_1650,1650,C50,Italian Game (Giuoco Piano),black,1-0,loss,False,False,0,19,37,,10.046134460795797,-768.4615384615385,2,0,checkmate
+m_1650_D37_w_11,tier_1650,1650,D37,Queen's Gambit Declined (Orthodox Variation),white,0-1,loss,False,False,2,17,32,,6.301329544591929,-123.72727272727273,3,0,checkmate
+m_1650_D37_b_12,tier_1650,1650,D37,Queen's Gambit Declined (Orthodox Variation),black,1-0,loss,False,False,0,10,19,,16.648020750835713,-22.75,0,0,checkmate
+m_1650_D20_w_13,tier_1650,1650,D20,Queen's Gambit Accepted,white,0-1,loss,False,False,5,23,44,,7.470517117968377,-996.7058823529412,3,0,checkmate
+m_1650_D20_b_14,tier_1650,1650,D20,Queen's Gambit Accepted,black,1-0,loss,False,False,0,16,31,,5.405545699613867,-850.1,2,0,checkmate
+m_1650_E92_w_15,tier_1650,1650,E92,King's Indian Defence (Classical),white,0-1,loss,False,False,0,18,34,,8.273647454850355,-95.36363636363636,3,0,checkmate
+m_1650_E92_b_16,tier_1650,1650,E92,King's Indian Defence (Classical),black,1-0,loss,False,False,0,25,49,,8.397423721867703,-79.16666666666667,4,0,checkmate
+m_1650_E32_w_17,tier_1650,1650,E32,Nimzo-Indian Defence (Classical),white,0-1,loss,False,False,6,23,44,,6.437924437250331,-277.0625,2,0,checkmate
+m_1650_E32_b_18,tier_1650,1650,E32,Nimzo-Indian Defence (Classical),black,1/2-1/2,draw,False,False,0,41,80,,6.361495088426369,-42.35294117647059,3,0,max_moves_reached
+m_1650_D85_w_19,tier_1650,1650,D85,Grünfeld Defence (Exchange Variation),white,0-1,loss,False,False,2,16,30,,10.784870111011616,-1270.6666666666667,3,0,checkmate
+m_1650_D85_b_20,tier_1650,1650,D85,Grünfeld Defence (Exchange Variation),black,1-0,loss,False,False,0,25,49,,3.7698542776828012,-1771.5,1,0,checkmate
+m_1650_A28_w_21,tier_1650,1650,A28,English Opening (Four Knights),white,0-1,loss,False,False,2,13,24,,10.641249999935098,-125.75,3,0,checkmate
+m_1650_A28_b_22,tier_1650,1650,A28,English Opening (Four Knights),black,1-0,loss,False,False,0,23,45,,6.324326277737985,-1403.7222222222222,3,0,checkmate
+m_1650_A09_w_23,tier_1650,1650,A09,Réti Opening,white,0-1,loss,False,False,4,19,36,,6.581202357275678,-1039.2857142857142,5,0,checkmate
+m_1650_A09_b_24,tier_1650,1650,A09,Réti Opening,black,1-0,loss,False,False,0,11,21,,11.361437667195181,0.0,2,0,checkmate
+m_1650_B01_w_25,tier_1650,1650,B01,Scandinavian Defence (Modern Variation),white,0-1,loss,False,False,7,24,46,,6.102250052591492,-951.2105263157895,4,0,checkmate
+m_1650_B01_b_26,tier_1650,1650,B01,Scandinavian Defence (Modern Variation),black,1-0,loss,False,False,0,18,35,,5.826012769270724,-985.6153846153846,2,0,checkmate
+m_1650_A88_w_27,tier_1650,1650,A88,Dutch Defence (Leningrad Variation),white,0-1,loss,False,False,9,31,60,,7.82747269572017,-1027.9565217391305,7,0,checkmate
+m_1650_A88_b_28,tier_1650,1650,A88,Dutch Defence (Leningrad Variation),black,1-0,loss,False,False,0,31,61,,5.207271782716776,-4071.6521739130435,0,0,checkmate
+m_1650_D11_w_29,tier_1650,1650,D11,Slav Defence (Modern Line),white,0-1,loss,False,False,15,31,60,,7.465426599810598,-1444.16,4,0,checkmate
+m_1650_D11_b_30,tier_1650,1650,D11,Slav Defence (Modern Line),black,1-0,loss,False,False,0,29,57,,6.357630521644909,-679.5217391304348,4,0,checkmate
+m_1950_B90_w_31,tier_1950,1950,B90,Sicilian Defence (Najdorf Variation),white,0-1,loss,False,False,0,16,30,,8.245316700049443,-999.0,6,0,checkmate
+m_1950_B90_b_32,tier_1950,1950,B90,Sicilian Defence (Najdorf Variation),black,1-0,loss,False,False,0,35,69,,5.7373879654764535,-1638.1724137931035,3,0,checkmate
+m_1950_C18_w_33,tier_1950,1950,C18,French Defence (Winawer Variation),white,0-1,loss,False,False,10,27,52,,6.02297279965569,-821.8,5,0,checkmate
+m_1950_C18_b_34,tier_1950,1950,C18,French Defence (Winawer Variation),black,1-0,loss,False,False,0,21,41,,5.552431499901494,-157.5,4,0,checkmate
+m_1950_C84_w_35,tier_1950,1950,C84,Ruy Lopez (Closed / Morphy Defence),white,0-1,loss,False,False,4,22,42,,7.686428713766093,0.0,5,0,checkmate
+m_1950_C84_b_36,tier_1950,1950,C84,Ruy Lopez (Closed / Morphy Defence),black,1-0,loss,False,False,0,37,73,,9.174469896920371,-1962.1379310344828,5,0,checkmate
+m_1950_B18_w_37,tier_1950,1950,B18,Caro-Kann Defence (Classical Variation),white,0-1,loss,False,False,9,23,44,,7.296127352995374,-128.1764705882353,4,0,checkmate
+m_1950_B18_b_38,tier_1950,1950,B18,Caro-Kann Defence (Classical Variation),black,1-0,loss,False,False,0,19,37,,6.267509538492259,-3866.3076923076924,3,0,checkmate
+m_1950_C50_w_39,tier_1950,1950,C50,Italian Game (Giuoco Piano),white,0-1,loss,False,False,15,32,62,,4.615711538533035,-3223.230769230769,7,0,checkmate
+m_1950_C50_b_40,tier_1950,1950,C50,Italian Game (Giuoco Piano),black,1-0,loss,False,False,0,19,37,,8.462596231346161,-213.76923076923077,5,0,checkmate
+m_1950_D37_w_41,tier_1950,1950,D37,Queen's Gambit Declined (Orthodox Variation),white,0-1,loss,False,False,8,20,38,,5.167601142082796,-2365.8571428571427,3,0,checkmate
+m_1950_D37_b_42,tier_1950,1950,D37,Queen's Gambit Declined (Orthodox Variation),black,1-0,loss,False,False,0,18,35,,9.063618083928304,-14.333333333333334,2,0,checkmate
+m_1950_D20_w_43,tier_1950,1950,D20,Queen's Gambit Accepted,white,0-1,loss,False,False,13,26,50,,6.570737400579674,-100.65,5,0,checkmate
+m_1950_D20_b_44,tier_1950,1950,D20,Queen's Gambit Accepted,black,1-0,loss,False,False,0,31,61,,4.917654999590013,-1238.48,3,0,checkmate
+m_1950_E92_w_45,tier_1950,1950,E92,King's Indian Defence (Classical),white,0-1,loss,False,False,4,21,40,,6.183616000271286,-906.7857142857143,5,0,checkmate
+m_1950_E92_b_46,tier_1950,1950,E92,King's Indian Defence (Classical),black,1-0,loss,False,False,0,30,59,,9.243587043507116,-2773.3478260869565,7,0,checkmate
+m_1950_E32_w_47,tier_1950,1950,E32,Nimzo-Indian Defence (Classical),white,0-1,loss,False,False,3,17,32,,8.759912400637404,-109.1,3,0,checkmate
+m_1950_E32_b_48,tier_1950,1950,E32,Nimzo-Indian Defence (Classical),black,1-0,loss,False,False,0,21,41,,7.974107214457555,-1.5,3,0,checkmate
+m_1950_D85_w_49,tier_1950,1950,D85,Grünfeld Defence (Exchange Variation),white,0-1,loss,False,False,12,28,54,,6.227212333691395,-1351.3333333333333,4,0,checkmate
+m_1950_D85_b_50,tier_1950,1950,D85,Grünfeld Defence (Exchange Variation),black,1-0,loss,False,False,0,17,33,,7.32677490086644,-3.7,5,0,checkmate
+m_1950_A28_w_51,tier_1950,1950,A28,English Opening (Four Knights),white,0-1,loss,False,False,9,22,42,,5.834720470482032,-178.1764705882353,5,0,checkmate
+m_1950_A28_b_52,tier_1950,1950,A28,English Opening (Four Knights),black,1-0,loss,False,False,0,14,27,,7.89104188879719,-217.77777777777777,2,0,checkmate
+m_1950_A09_w_53,tier_1950,1950,A09,Réti Opening,white,0-1,loss,False,False,2,13,24,,6.349926999973832,-134.5,4,0,checkmate
+m_1950_A09_b_54,tier_1950,1950,A09,Réti Opening,black,1-0,loss,False,False,0,15,29,,9.732008299761219,0.0,3,0,checkmate
+m_1950_B01_w_55,tier_1950,1950,B01,Scandinavian Defence (Modern Variation),white,0-1,loss,False,False,2,19,36,,7.385330428795506,-826.5714285714286,5,0,checkmate
+m_1950_B01_b_56,tier_1950,1950,B01,Scandinavian Defence (Modern Variation),black,1-0,loss,False,False,0,29,57,,4.754277625124814,-2640.2916666666665,3,0,checkmate
+m_1950_A88_w_57,tier_1950,1950,A88,Dutch Defence (Leningrad Variation),white,0-1,loss,False,False,4,31,60,,6.7311595219349405,-1517.6521739130435,7,0,checkmate
+m_1950_A88_b_58,tier_1950,1950,A88,Dutch Defence (Leningrad Variation),black,1-0,loss,False,False,0,20,39,,8.560423499754203,-109.91666666666667,6,0,checkmate
+m_1950_D11_w_59,tier_1950,1950,D11,Slav Defence (Modern Line),white,0-1,loss,False,False,5,19,36,,9.032346153197487,-3072.3846153846152,4,0,checkmate
+m_1950_D11_b_60,tier_1950,1950,D11,Slav Defence (Modern Line),black,1-0,loss,False,False,0,24,47,,7.605421444976754,-758.8888888888889,3,0,checkmate
+m_2250_B90_w_61,tier_2250,2250,B90,Sicilian Defence (Najdorf Variation),white,0-1,loss,False,False,2,15,28,,10.631699000643696,-1368.3333333333333,5,0,checkmate
+m_2250_B90_b_62,tier_2250,2250,B90,Sicilian Defence (Najdorf Variation),black,1-0,loss,False,False,0,18,35,,8.701895667400095,-3394.9166666666665,1,0,checkmate
+m_2250_C18_w_63,tier_2250,2250,C18,French Defence (Winawer Variation),white,0-1,loss,False,False,6,21,40,,10.105672356855523,-2853.5714285714284,4,0,checkmate
+m_2250_C18_b_64,tier_2250,2250,C18,French Defence (Winawer Variation),black,1-0,loss,False,False,0,24,47,,9.584546471374138,-1559.1176470588234,1,0,checkmate
+m_2250_C84_w_65,tier_2250,2250,C84,Ruy Lopez (Closed / Morphy Defence),white,0-1,loss,False,False,4,18,34,,8.472841599723324,-999.0,5,0,checkmate
+m_2250_C84_b_66,tier_2250,2250,C84,Ruy Lopez (Closed / Morphy Defence),black,1-0,loss,False,False,0,33,65,,13.115796640340704,-574.28,2,0,checkmate
+m_2250_B18_w_67,tier_2250,2250,B18,Caro-Kann Defence (Classical Variation),white,1/2-1/2,draw,False,False,25,41,80,,10.943794057363577,-94.54285714285714,4,0,max_moves_reached
+m_2250_B18_b_68,tier_2250,2250,B18,Caro-Kann Defence (Classical Variation),black,1-0,loss,False,False,0,18,35,,5.918020833632909,-1957.0,1,0,checkmate
+m_2250_C50_w_69,tier_2250,2250,C50,Italian Game (Giuoco Piano),white,0-1,loss,False,False,7,24,46,,5.750372889451683,-94.0,7,0,checkmate
+m_2250_C50_b_70,tier_2250,2250,C50,Italian Game (Giuoco Piano),black,1-0,loss,False,False,0,27,53,,7.183960285363442,-3972.0,3,0,checkmate
+m_2250_D37_w_71,tier_2250,2250,D37,Queen's Gambit Declined (Orthodox Variation),white,0-1,loss,False,False,8,24,46,,4.682988555133408,-2375.277777777778,4,0,checkmate
+m_2250_D37_b_72,tier_2250,2250,D37,Queen's Gambit Declined (Orthodox Variation),black,1-0,loss,False,False,0,25,49,,5.6418618422819575,-940.9473684210526,4,0,checkmate
+m_2250_D20_w_73,tier_2250,2250,D20,Queen's Gambit Accepted,white,0-1,loss,False,False,8,20,38,,7.617098286053598,-833.0,5,0,checkmate
+m_2250_D20_b_74,tier_2250,2250,D20,Queen's Gambit Accepted,black,1-0,loss,False,False,0,26,51,,6.180995850081672,-610.65,4,0,checkmate
+m_2250_E92_w_75,tier_2250,2250,E92,King's Indian Defence (Classical),white,0-1,loss,False,False,9,28,54,,6.341095238028737,-555.0,4,0,checkmate
+m_2250_E92_b_76,tier_2250,2250,E92,King's Indian Defence (Classical),black,1-0,loss,False,False,0,20,39,,4.832182846327599,-3319.076923076923,1,0,checkmate
+m_2250_E32_w_77,tier_2250,2250,E32,Nimzo-Indian Defence (Classical),white,0-1,loss,False,False,14,25,48,,5.221874888472182,-3883.3333333333335,3,0,checkmate
+m_2250_E32_b_78,tier_2250,2250,E32,Nimzo-Indian Defence (Classical),black,1-0,loss,False,False,0,39,77,,7.7200560000392215,-1973.625,5,0,checkmate
+m_2250_D85_w_79,tier_2250,2250,D85,Grünfeld Defence (Exchange Variation),white,0-1,loss,False,False,11,27,52,,8.842439699947136,-663.75,3,0,checkmate
+m_2250_D85_b_80,tier_2250,2250,D85,Grünfeld Defence (Exchange Variation),black,1-0,loss,False,False,0,21,41,,8.133202428195675,-100.71428571428571,2,0,checkmate
+m_2250_A28_w_81,tier_2250,2250,A28,English Opening (Four Knights),white,0-1,loss,False,False,9,27,52,,5.903172363435839,-1620.3636363636363,6,0,checkmate
+m_2250_A28_b_82,tier_2250,2250,A28,English Opening (Four Knights),black,1-0,loss,False,False,0,18,35,,12.875035076901371,-118.15384615384616,4,0,checkmate
+m_2250_A09_w_83,tier_2250,2250,A09,Réti Opening,white,0-1,loss,False,False,3,15,28,,7.261325000581564,-1225.4,4,0,checkmate
+m_2250_A09_b_84,tier_2250,2250,A09,Réti Opening,black,1-0,loss,False,False,0,14,27,,6.53261588942971,-4440.0,2,0,checkmate
+m_2250_B01_w_85,tier_2250,2250,B01,Scandinavian Defence (Modern Variation),white,0-1,loss,False,False,6,22,42,,6.980926529221881,-1682.5882352941176,6,0,checkmate
+m_2250_B01_b_86,tier_2250,2250,B01,Scandinavian Defence (Modern Variation),black,1-0,loss,False,False,0,33,65,,5.7699568930859515,-1238.6785714285713,5,0,checkmate
+m_2250_A88_w_87,tier_2250,2250,A88,Dutch Defence (Leningrad Variation),white,0-1,loss,False,False,2,21,40,,10.91380461562389,0.0,5,0,checkmate
+m_2250_A88_b_88,tier_2250,2250,A88,Dutch Defence (Leningrad Variation),black,1-0,loss,False,False,0,16,31,,7.992901124453056,-1248.75,4,0,checkmate
+m_2250_D11_w_89,tier_2250,2250,D11,Slav Defence (Modern Line),white,0-1,loss,False,False,9,23,44,,7.91715205880738,-2781.9411764705883,4,0,checkmate
+m_2250_D11_b_90,tier_2250,2250,D11,Slav Defence (Modern Line),black,1-0,loss,False,False,0,26,51,,8.912629049518728,-5.3,3,0,checkmate

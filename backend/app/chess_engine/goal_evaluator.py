@@ -396,6 +396,19 @@ class GoalEvaluator:
             our_king_sq = board.king(self.our_color)
 
             if opp_king_sq is not None:
+                # 0. Checkmate delivered bonus
+                if board.is_checkmate() and board.turn == opp_color:
+                    if milestone.milestone_type == MilestoneType.WIN_GAME:
+                        score += 5000.0
+                    elif milestone.milestone_type == MilestoneType.CHECKMATE_WITH_PIECE:
+                        checkers = board.attackers(self.our_color, opp_king_sq)
+                        for sq in checkers:
+                            p = tracker.get_piece_at(sq)
+                            if p and any(chess.piece_name(p.piece_type).lower() == t.lower() for t in target_types):
+                                if not req_promoted or p.is_promoted:
+                                    score += 5000.0
+                                    break
+
                 # 1. Opponent king restriction (mating net tightness)
                 legal_king_escapes = self._count_king_legal_moves(board, opp_color, opp_king_sq)
                 score += max(0.0, (8.0 - legal_king_escapes) * 30.0)
@@ -441,6 +454,8 @@ class GoalEvaluator:
 
     def _static_positional_score(self, board: chess.Board) -> float:
         """Quick heuristic for material balance, mobility, and center control."""
+        if board.is_checkmate():
+            return 20.0 if board.turn != self.our_color else -20.0
         material = 0
         for sq, piece in board.piece_map().items():
             val = PIECE_VALUES.get(piece.piece_type, 0)

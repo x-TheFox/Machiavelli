@@ -568,13 +568,19 @@ class TournamentRunner:
         """Save JSON, CSV, PGN, and Markdown benchmark reports."""
         os.makedirs(self.config.output_dir, exist_ok=True)
         json_path = os.path.join(self.config.output_dir, "tournament_results.json")
+        metrics_json_path = os.path.join(self.config.output_dir, "metrics.json")
         csv_path = os.path.join(self.config.output_dir, "tournament_games.csv")
+        csv_results_path = os.path.join(self.config.output_dir, "tournament_results.csv")
         pgn_path = os.path.join(self.config.output_dir, "tournament_games.pgn")
+        pgn_main_path = os.path.join(self.config.output_dir, "tournament.pgn")
         md_path = os.path.join(self.config.output_dir, "tournament_report.md")
 
         export_to_json(summary, games, json_path)
+        export_to_json(summary, games, metrics_json_path)
         export_to_csv(games, csv_path)
+        export_to_csv(games, csv_results_path)
         export_to_pgn(games, pgn_path)
+        export_to_pgn(games, pgn_main_path)
         report_md = generate_markdown_report(summary)
         with open(md_path, "w", encoding="utf-8") as f:
             f.write(report_md)

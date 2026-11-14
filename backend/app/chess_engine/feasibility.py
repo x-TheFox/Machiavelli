@@ -53,7 +53,32 @@ class FeasibilityEngine:
                 evidence={"terminal": "checkmate_against_us", "ply": board.ply()},
             )
 
-        # 1b. Stalemate or Draw when win/checkmate is required
+        # 1b. Checkmate delivered by us
+        if board.is_checkmate() and board.turn == opp_color:
+            all_sacs_done = tracker.all_original_pieces_sacrificed(self.our_color) if any(
+                m.milestone_type == MilestoneType.SACRIFICE_ALL_ORIGINAL_PIECES for m in goal.milestones
+            ) else True
+            q_sac_done = tracker.is_queen_sacrificed(self.our_color) if any(
+                m.milestone_type == MilestoneType.SACRIFICE_QUEEN for m in goal.milestones
+            ) else True
+            pawns_done = (len(tracker.get_surviving_pawns(self.our_color)) == 0 and len(tracker.get_promoted_pieces(self.our_color)) > 0) if any(
+                m.milestone_type in {MilestoneType.PROMOTE_PAWN, MilestoneType.PROMOTE_SURVIVING_PAWNS, MilestoneType.PROMOTE_ALL_8_PAWNS} for m in goal.milestones
+            ) else True
+
+            if all_sacs_done and q_sac_done and pawns_done:
+                return FeasibilityReport(
+                    status=FeasibilityStatus.COMPLETED,
+                    reason="All milestones and final checkmate verified!",
+                    evidence={"ply": board.ply(), "checkmate": True},
+                )
+            else:
+                return FeasibilityReport(
+                    status=FeasibilityStatus.PROVEN_IMPOSSIBLE,
+                    reason="Game terminated by premature checkmate before prerequisite milestones were completed.",
+                    evidence={"terminal": "premature_checkmate", "ply": board.ply()},
+                )
+
+        # 1c. Stalemate or Draw when win/checkmate is required
         if board.is_stalemate():
             return FeasibilityReport(
                 status=FeasibilityStatus.PROVEN_IMPOSSIBLE,

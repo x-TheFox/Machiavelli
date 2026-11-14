@@ -127,6 +127,11 @@ class StockfishUCIClient:
         """Checks if the subprocess is active and running."""
         return self._process is not None and self._process.returncode is None
 
+    @property
+    def is_running(self) -> bool:
+        """Alias for is_alive."""
+        return self.is_alive
+
     async def start(self) -> None:
         """Starts the Stockfish engine process and establishes UCI handshake."""
         async with self._lock:
@@ -312,11 +317,12 @@ class StockfishUCIClient:
 
     async def _position_internal(
         self,
-        fen: Optional[str] = None,
+        fen: Optional[Any] = None,
         moves: Optional[Sequence[str]] = None,
     ) -> None:
-        if fen and fen != "startpos":
-            cmd = f"position fen {fen}"
+        fen_str = fen.fen() if hasattr(fen, "fen") else (str(fen) if fen else None)
+        if fen_str and fen_str != "startpos":
+            cmd = f"position fen {fen_str}"
         else:
             cmd = "position startpos"
 
