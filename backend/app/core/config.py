@@ -36,9 +36,18 @@ class Settings(BaseSettings):
     DEFAULT_SEARCH_MOVETIME_MS: int = 1000
     DEFAULT_MULTIPV: int = 5
 
-    OPENAI_API_BASE: str = "https://api.openai.com/v1"
+    OPENAI_API_BASE: str = "https://generativelanguage.googleapis.com/v1beta/openai/"
     OPENAI_API_KEY: str = ""
-    OPENAI_MODEL: str = "gpt-4o"
+    OPENAI_MODEL: str = "gemini-2.5-flash"
+    OPENAI_FALLBACK_MODELS: List[str] = [
+        "gemini-2.5-flash",
+        "gemini-2.5-pro",
+        "gemini-2.0-flash",
+        "gemini-1.5-flash",
+        "gemini-flash-latest",
+        "gemini-3.8-flash",
+        "gemini-pro-latest",
+    ]
 
     DATABASE_URL: str = "sqlite+aiosqlite:///./machiavelli.db"
     HOST: str = "0.0.0.0"

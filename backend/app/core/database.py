@@ -13,15 +13,23 @@ from sqlalchemy.ext.asyncio import (
     create_async_engine,
 )
 
-from app.core.models import Base
+try:
+    from backend.app.core.models import Base
+except ImportError:
+    from app.core.models import Base
 
 # Database URL resolution with fallback
 try:
-    from app.core.config import get_settings
+    from backend.app.core.config import get_settings
     settings = get_settings()
     DATABASE_URL = getattr(settings, "DATABASE_URL", "sqlite+aiosqlite:///./machiavelli.db")
 except Exception:
-    DATABASE_URL = os.environ.get("DATABASE_URL", "sqlite+aiosqlite:///./machiavelli.db")
+    try:
+        from app.core.config import get_settings
+        settings = get_settings()
+        DATABASE_URL = getattr(settings, "DATABASE_URL", "sqlite+aiosqlite:///./machiavelli.db")
+    except Exception:
+        DATABASE_URL = os.environ.get("DATABASE_URL", "sqlite+aiosqlite:///./machiavelli.db")
 
 # Ensure SQLite path directory exists if a relative/absolute path is given
 if "sqlite" in DATABASE_URL:
